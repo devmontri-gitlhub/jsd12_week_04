@@ -1,0 +1,126 @@
+:root {
+    --bg: #f0f0f0;  
+    --border: 1px solid #050505;    
+    --width: 680px;
+    --width-2: 410px;
+    --max-width: 100%;
+    --font-family: Arial, sans-serif;
+    --text-color: #020202;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text-color);
+    font-family: var(--font-family);
+}
+
+*{box-sizing:border-box}
+*{margin: 0;}
+
+.container {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    border: var(--border); 
+    max-width: var(--max-width);
+    padding: 20px 0px 20px 0px;
+}
+
+.container .item-1 {
+    align-self: center;
+    width: var(--width-2);
+    max-width: 100%;
+    border-top: black solid 1px;
+    border-right: black solid 1px;
+    border-left: black solid 1px;
+    padding: 20px 0px 15px 30px;
+   
+}
+.container .item-1 h1 {
+    margin: 0px;
+    padding: 0px;
+    color: var(--text-color);
+}
+.container .item-2 {
+    align-self: center;
+    width: var(--width-2);
+    max-width: 100%;
+    border-right: black solid 1px;
+    border-left: black solid 1px;
+    padding: 20px 0px 0px 30px;
+}
+    .container .item-2 p {
+        font-size: 15px;
+        margin: -10px 0px 0px 0px;
+        
+    }
+
+.container .item-3 {
+    align-self: center;
+    width: var(--width-2);
+    max-width: 100%;
+    border-right: black solid 1px;
+    border-left: black solid 1px;
+    padding: 20px 0px 0px 30px;
+}
+    .container .item-3 p {
+        font-size: 4em;
+        font-weight: bold;
+        background-color: rgb(4, 161, 4);
+        width: 140px;
+        height: 70px;
+        border-radius: 12px;
+        padding: 0px 0px 0px 10px;
+        margin: -5px 0px 0px 0px;
+    }
+.container .item-4{
+    align-self: center;
+    width: var(--width-2);
+    max-width: 100%;
+    border-right: black solid 1px;
+    border-left: black solid 1px;
+    padding: 20px 0px 0px 30px;
+}
+    .container .item-4 p {
+        font-size: 16px;
+        font-weight: bold;
+        margin: -10px 0px 0px 0px;
+    }
+
+.container .item-5 {
+    align-self: center;
+    width: var(--width-2);
+    max-width: 100%;
+    border-right: black solid 1px;
+    border-left: black solid 1px;
+    padding: 20px 0px 0px 30px;
+
+}
+    .container .item-5 p {
+        font-size: 3.25em;
+        font-weight: bold;
+        background-color: rgb(4, 161, 4);
+        width: 292px;
+        height: 66px;
+        border-radius: 12px;
+        padding: 1.5px 0px 0px 10px;
+        margin: 5px 0px 5px 0px;
+    }
+
+.container .item-6{
+    align-self: center;
+    width: var(--width-2);
+    max-width: 100%;
+    border-right: black solid 1px;
+    border-left: black solid 1px;
+    border-bottom: black solid 1px;
+    padding: 20px 0px 100px 30px;
+}
+    .container .item-6 p {
+        font-size: 16px;
+        font-weight: bold;
+        margin: -16px 0px 0px 0px;
+        
+    }
